@@ -1,4 +1,4 @@
-function shortestWord(str){
+function shortest_Word(str){
     const newArrayList=str.split(" ");
     let count=1;
     let currentWordCount=newArrayList[0];

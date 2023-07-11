@@ -3,7 +3,8 @@ function greet(makhelwane){
     
   }
   
-  console.log(greet("Malva"));
+
+  
 
 
  

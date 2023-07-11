@@ -1,6 +1,7 @@
 document.addEventListener('alpine:init',()=>{
     Alpine.data("fee",()=>{
         return{
+            
             shiftInput:'',
             results:'',
             
