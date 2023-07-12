@@ -1,17 +1,18 @@
 document.addEventListener('alpine:init',()=>{
 
-    Alpine.data('shortestWord',function shortestWord(){
-
+    Alpine.data('shortestWord',()=>{
         return{
             str:'',
             shortestWordResults:'',
             
             shortestWord_(){
-                this.shortestWordResults=shortestWord_(this.str);
+                this.shortestWordResults=shortestWord(this.str);
                 setTimeout(()=>{
                     this.str='';
-                },5000);
-            }
-        }
+                },7000);
+       
+         }
+    }
     });
+
 })

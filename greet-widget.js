@@ -1,7 +1,7 @@
 document.addEventListener("alpine:init",()=>{
 
     
-    Alpine.data('greetWidget',function greetWidget(){
+    Alpine.data('greetWidget',()=>{
         
         return {
             name: '',

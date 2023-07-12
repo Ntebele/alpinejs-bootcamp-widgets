@@ -1,17 +1,17 @@
 document.addEventListener('alpine:init',()=>{
 
     
-    Alpine.data('longestWord',function longestWord(){
+    Alpine.data('longestWord',()=>{
         return {
         
             str:'',
             longestWordResults:'',
 
             longestWord_(){
-                this.longestWordResults=longestWord_(this.str);
+                this.longestWordResults=longestWord(this.str);
                 setTimeout(()=>{
                     this.str='';
-                },5000);
+                },6000);
 
             
 
@@ -20,3 +20,4 @@ document.addEventListener('alpine:init',()=>{
     });
 
 })
+
