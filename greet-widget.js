@@ -36,7 +36,7 @@ document.addEventListener("alpine:init",()=>{
          
         } setTimeout(()=>{
           this.greeting='';
-      },5000);
+      },8000);
 
 
 }

@@ -11,7 +11,7 @@ document.addEventListener('alpine:init',()=>{
                 this.longestWordResults=longestWord(this.str);
                 setTimeout(()=>{
                     this.str='';
-                },6000);
+                },7000);
 
             
 

@@ -77,7 +77,9 @@
                 
                         <div class="fee-container">
                             <div class="fee-label">Transport Fee:</div>
-                          
+                            <div class="fee-amount" x-show="shift === 'morning'">R10</div>
+                            <div class="fee-amount" x-show="shift === 'afternoon'">R15</div>
+                            <div class="fee-amount" x-show="shift === 'night'">Free</div>
                         </div>
                     </div>
                   
